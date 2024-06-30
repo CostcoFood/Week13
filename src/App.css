@@ -1,38 +1,100 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  background-color: #f0f0f0; /* Light background color */
+}
+
 .App {
-  text-align: center;
+  width: 100%; /* Full width */
+  max-width: 600px; /* Adjust as needed */
+  padding: 20px;
+  background-color: #fff; /* White background for content */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navBar {
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  border-bottom: 1px solid #666; /* Darker border */
+  text-align: center; /* Center align navigation items */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navBar ul {
+  display: inline-block; /* Display as inline-block for centering */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navBar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px; /* Adjusted padding */
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navBar a:hover {
+  background-color: #4d90fe; /* Windows Vista blue */
+  color: #fff;
+}
+
+.login-form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 20px;
+  border: 1px solid #666; /* Darker border */
+  background-color: #fff; /* White background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+}
+
+.login-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Dark color for the title */
+  text-align: center; /* Center align the title */
+}
+
+form {
+  width: 100%; /* Full width */
+  max-width: 300px; /* Adjust as needed */
+}
+
+label {
+  margin-bottom: 5px;
+  color: #333; /* Dark color for labels */
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: calc(100% - 20px); /* Full width input with padding adjustment */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4d90fe; /* Windows Vista blue */
   color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%; /* Full width button */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover {
+  background-color: #357ae8; /* Darker shade on hover */
 }
