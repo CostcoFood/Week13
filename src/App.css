@@ -2,29 +2,29 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   margin: 0;
-  background-color: #f0f0f0; /* Light background color */
+  background-color: #f0f0f0;
 }
 
 .App {
-  width: 100%; /* Full width */
-  max-width: 600px; /* Adjust as needed */
+  width: 100%;
+  max-width: 600px;
   padding: 20px;
-  background-color: #fff; /* White background for content */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .navBar {
   width: 100%;
   background-color: #333;
   padding: 10px 0;
-  border-bottom: 1px solid #666; /* Darker border */
-  text-align: center; /* Center align navigation items */
+  border-bottom: 1px solid #666;
+  text-align: center;
 }
 
 .navBar ul {
-  display: inline-block; /* Display as inline-block for centering */
+  display: inline-block;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -40,13 +40,13 @@ body {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-  padding: 10px 15px; /* Adjusted padding */
+  padding: 10px 15px;
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .navBar a:hover {
-  background-color: #4d90fe; /* Windows Vista blue */
+  background-color: #4d90fe;
   color: #fff;
 }
 
@@ -55,46 +55,46 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  border: 1px solid #666; /* Darker border */
-  background-color: #fff; /* White background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle box shadow */
+  border: 1px solid #666;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .login-title {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #333; /* Dark color for the title */
-  text-align: center; /* Center align the title */
+  color: #333;
+  text-align: center;
 }
 
 form {
-  width: 100%; /* Full width */
-  max-width: 300px; /* Adjust as needed */
+  width: 100%;
+  max-width: 300px;
 }
 
 label {
   margin-bottom: 5px;
-  color: #333; /* Dark color for labels */
+  color: #333;
 }
 
 input {
   margin-bottom: 15px;
   padding: 10px;
-  width: calc(100% - 20px); /* Full width input with padding adjustment */
+  width: calc(100% - 20px);
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 button {
   padding: 10px 20px;
-  background-color: #4d90fe; /* Windows Vista blue */
+  background-color: #4d90fe;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 100%; /* Full width button */
+  width: 100%;
 }
 
 button:hover {
-  background-color: #357ae8; /* Darker shade on hover */
+  background-color: #357ae8;
 }
